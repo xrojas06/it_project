@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+  <link rel="stylesheet" href="../../Assets/css/styles_dashboard.css" />
+</head>
+<body>
+<div class="app-container">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="app-icon">
+        <img src="../../Assets/img/logo1.png" alt="Logo en formato PNG" />
+      </div>
+    </div>
+    <ul class="sidebar-list">
+      <li class="sidebar-list-item active">
+        <a href="home.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Inicio</span>
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="products.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span>Productos</span>
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="orders.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>
+          <span>Pedidos</span>
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="clients.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>                    <span>Clientes</span>
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="profile.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3"/><circle cx="12" cy="10" r="3"/><circle cx="12" cy="12" r="10"/></svg>                    <span>Perfil</span>
+        </a>
+      </li>
+    </ul>
+    <div class="account-info">
+      <div class="account-info-picture">
+        <img src="https://images.unsplash.com/photo-1640880793908-b0afa07238f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxlZ28lMjBtYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Account">
+      </div>
+      <div class="account-info-name">Francesco B.</div>
+      <button class="account-info-more">
+        <a href="../Home/iniciar_sesion.html"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 16.5V19C15 20.1046 14.1046 21 13 21H6C4.89543 21 4 20.1046 4 19V5C4 3.89543 4.89543 3 6 3H13C14.1046 3 15 3.89543 15 5V8.0625M11 12H21M21 12L18.5 9.5M21 12L18.5 14.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></a>
+      </button>
+    </div>
+
+  </div>
+  <div class="app-content-home">
+    <div class="app-content-profile">
+      <div class="account-info-home">
+        <div class="account-info-picture-home">
+          <a href="profile.html">
+          <img src="https://images.unsplash.com/photo-1640880793908-b0afa07238f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxlZ28lMjBtYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="Account">
+          </a>
+        </div>
+        <div class="account-info-name-home">Francesco Bagnaia</div>
+      </div>
+    </div>
+    <div class="app-content-last-orders">
+        <div class="last-orders-header">
+          <h2 class="last-orders-headerText">Últimos pedidos</h2>
+          <div class="last-orders-header-line"></div>
+          <div class="last-orders-header-square"></div>
+        </div>
+      <div class="clients-list">
+        <ul class="clients-bar">
+          <li class="clients-bar-item">
+            <a href="clients.html">
+              <div class='client-line'> </div>
+              <div class="client-info-picture">
+                <img src="https://images.unsplash.com/photo-1640880793908-b0afa07238f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxlZ28lMjBtYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60">
+              </div>
+              <span class = 'client-name'>Alejandro Warn </span>
+              <button class="status-denied active">Rechazado</button>
+            </a>
+          </li>
+
+          <li class="clients-bar-item">
+            <a href="clients.html">
+              <div class='client-line'> </div>
+              <div class="client-info-picture">
+                <img src="https://images.unsplash.com/photo-1610483178766-8092d96033f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60">
+              </div>
+              <span class = 'client-name'>Alejandro Warn </span>
+              <button class="status-aproved active">Aprobado</button>
+            </a>
+          </li>
+
+          <li class="clients-bar-item">
+            <a href="clients.html">
+              <div class='client-line'> </div>
+              <div class="client-info-picture">
+                <img src="https://images.unsplash.com/photo-1526505262320-81542978f63b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60">
+              </div>
+              <span class = 'client-name'>Alejandro Warn </span>
+              <button class="status-pending active">Pendiente</button>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="app-content-bestProducts">
+      <div class="app-content-BPheader">
+        <div class="shape right-skew">
+          <i class="fas fa-laptop"></i>
+          <h2>Productos más vendidos</h2>
+        </div>
+      </div>
+      <div class="cards">
+        <a href="change_product.html">
+        <div class="card">
+          <h3 class="card-title">Producto 1</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1525931712568-4bcf594303fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhamV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div></a>
+        <a href="products.html">
+        <div class="card">
+          <h3 class="card-title">Producto 2</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1611839267623-8a861c18d52c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+        </div>
+        </a>
+        <a href="products.html">
+        <div class="card">
+          <h3 class="card-title">Producto 3</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1671988695386-8803a9e25601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        </a>
+          <a href="products.html">
+        <div class="card">
+          <h3 class="card-title">Producto 4</h3>
+          <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1549109926-58f039549485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYXJhJTIwZGUlMjBzZWd1cmlkYWR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+
+        </div></a>
+      </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
